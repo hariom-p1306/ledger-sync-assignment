@@ -5,6 +5,9 @@ import in.simplifymoney.ledgersync.json.Json;
 import in.simplifymoney.ledgersync.parse.Parsers;
 import in.simplifymoney.ledgersync.report.Reports;
 import in.simplifymoney.ledgersync.store.SqlLedgerStore;
+import in.simplifymoney.ledgersync.store.MongoDocumentStore;
+import in.simplifymoney.ledgersync.store.Backfill;
+import in.simplifymoney.ledgersync.store.ConsistencyChecker;
 import java.nio.file.Files;
 import java.nio.file.Path;
 
@@ -22,7 +25,7 @@ public final class App {
 
     public static void main(String[] args) throws Exception {
         if (args.length == 0) {
-            System.err.println("usage: migrate | ingest <corpus.jsonl> | report <out-dir>");
+            System.err.println("usage: migrate | ingest <corpus.jsonl> | report <out-dir> [corpus] | backfill | check");
             System.exit(2);
         }
         Files.createDirectories(DB.getParent());
@@ -54,9 +57,28 @@ public final class App {
                             Json.writePretty(Reports.ledgerDocument(ledger)));
                     Files.writeString(out.resolve("summary.json"),
                             Json.writePretty(Reports.summary(ledger)));
-                    Files.writeString(out.resolve("reconciliation.json"),
-                            Json.writePretty(Reports.reconciliation(ledger)));
+                    Path corpus = args.length >= 3 ? Path.of(args[2]) : Path.of("fixtures", "corpus-a.jsonl");
+                    var reconciliation = Files.exists(corpus)
+                            ? Reports.reconciliation(ledger, IngestService.readCorpus(corpus))
+                            : Reports.reconciliation(ledger);
+                    Files.writeString(out.resolve("reconciliation.json"), Json.writePretty(reconciliation));
                     System.out.println("wrote 3 files to " + out);
+                }
+            }
+            case "backfill" -> {
+                try (SqlLedgerStore sql = new SqlLedgerStore(DB);
+                     MongoDocumentStore mongo = mongo()) {
+                    sql.migrate(MIGRATIONS);
+                    System.out.println(new Backfill(sql, mongo).run());
+                }
+            }
+            case "check" -> {
+                try (SqlLedgerStore sql = new SqlLedgerStore(DB);
+                     MongoDocumentStore mongo = mongo()) {
+                    sql.migrate(MIGRATIONS);
+                    var differences = new ConsistencyChecker(sql, mongo).check();
+                    if (differences.isEmpty()) System.out.println("stores agree");
+                    else differences.forEach(System.out::println);
                 }
             }
             default -> {
@@ -64,5 +86,10 @@ public final class App {
                 System.exit(2);
             }
         }
+    }
+
+    private static MongoDocumentStore mongo() {
+        String uri = System.getenv().getOrDefault("MONGO_URI", "mongodb://localhost:27017");
+        return new MongoDocumentStore(uri, "ledger_sync");
     }
 }

@@ -21,7 +21,24 @@ public final class Backfill {
     }
 
     public Result run() {
-        throw new UnsupportedOperationException("backfill is not implemented");
+        long read = 0;
+        long written = 0;
+        long skipped = 0;
+        java.util.Set<String> known = new java.util.HashSet<>();
+        for (var transaction : target.all()) known.add(TransactionKeys.financial(transaction));
+        for (var transaction : source.all()) {
+            read++;
+            String key = TransactionKeys.financial(transaction);
+            if (!known.add(key)) {
+                // save still merges new source evidence, but it does not create a new document.
+                target.save(transaction);
+                skipped++;
+            } else {
+                target.save(transaction);
+                written++;
+            }
+        }
+        return new Result(read, written, skipped);
     }
 
     public record Result(long read, long written, long skipped) {}

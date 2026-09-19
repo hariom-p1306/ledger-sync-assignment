@@ -17,6 +17,7 @@ dependencies {
     // loaded reflectively by java.sql.DriverManager at run time, so it is a
     // runtime dependency only. Add whatever you need for your document store.
     runtimeOnly 'com.h2database:h2:2.2.224'
+    implementation 'org.mongodb:mongodb-driver-sync:5.2.0'
 
     testImplementation platform('org.junit:junit-bom:5.10.2')
     testImplementation 'org.junit.jupiter:junit-jupiter'

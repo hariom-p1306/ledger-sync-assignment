@@ -33,4 +33,9 @@ public interface DocumentStore {
     Optional<NormalizedTxn> byMessageId(String messageId);
 
     void save(NormalizedTxn txn);
+
+    /** Required by the backfill and exact consistency audit. */
+    default List<NormalizedTxn> all() {
+        throw new UnsupportedOperationException("document store does not expose an audit stream");
+    }
 }
