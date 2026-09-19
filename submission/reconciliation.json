@@ -1,0 +1,10 @@
+{
+  "discrepancies": [
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-29T17:06+05:30",
+      "amount": "7500.00",
+      "note": "bank balance changed -7500.00 beyond parsed transactions between stated balance alerts"
+    }
+  ]
+}

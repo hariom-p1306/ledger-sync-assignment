@@ -1,0 +1,3043 @@
+{
+  "transactions": [
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-01T09:02+05:30",
+      "direction": "credit",
+      "amount": "45000.00",
+      "category": "INCOME",
+      "merchant": "SALARY CREDIT",
+      "source_message_ids": [
+        "m-00001-31eb24",
+        "m-00002-69e4cd"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-07-01T10:22+05:30",
+      "direction": "debit",
+      "amount": "22.50",
+      "category": "MICRO",
+      "merchant": "UPI/VEGETABLE VENDOR",
+      "source_message_ids": [
+        "m-00003-a978bd"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-01T11:52+05:30",
+      "direction": "debit",
+      "amount": "99.99",
+      "category": "SPEND",
+      "merchant": "BIGBASKET",
+      "source_message_ids": [
+        "m-00004-f52f55"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-01T18:57+05:30",
+      "direction": "debit",
+      "amount": "99.99",
+      "category": "SPEND",
+      "merchant": "IRCTC",
+      "source_message_ids": [
+        "m-00005-94bc92",
+        "m-00006-74ad8c"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-01T19:05+05:30",
+      "direction": "debit",
+      "amount": "1249.99",
+      "category": "SPEND",
+      "merchant": "BLINKIT",
+      "source_message_ids": [
+        "m-00007-e763ac"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-01T20:14+05:30",
+      "direction": "debit",
+      "amount": "75.00",
+      "category": "MICRO",
+      "merchant": "UPI/BARBER",
+      "source_message_ids": [
+        "m-00008-f76713"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-07-01T21:14+05:30",
+      "direction": "credit",
+      "amount": "18000.00",
+      "category": "INCOME",
+      "merchant": "NEFT INWARD SELF",
+      "source_message_ids": [
+        "m-00009-0b225e"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-02T11:04+05:30",
+      "direction": "debit",
+      "amount": "76.49",
+      "category": "SPEND",
+      "merchant": "RELIANCE SMART",
+      "source_message_ids": [
+        "m-00010-b10d52",
+        "m-00011-a3d757"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-02T11:14+05:30",
+      "direction": "debit",
+      "amount": "47.33",
+      "category": "SPEND",
+      "merchant": "SWIGGY",
+      "source_message_ids": [
+        "m-00012-862ffa",
+        "m-00013-ccb139"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-02T18:38+05:30",
+      "direction": "debit",
+      "amount": "80.00",
+      "category": "MICRO",
+      "merchant": "UPI/KIRANA STORE",
+      "source_message_ids": [
+        "m-00014-fcf3df"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-02T19:42+05:30",
+      "direction": "debit",
+      "amount": "30.00",
+      "category": "MICRO",
+      "merchant": "UPI/KIRANA STORE",
+      "source_message_ids": [
+        "m-00015-26f3bd"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-03T08:20+05:30",
+      "direction": "debit",
+      "amount": "10.00",
+      "category": "MICRO",
+      "merchant": "UPI/MILK BOOTH",
+      "source_message_ids": [
+        "m-00016-841d31"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-03T10:41+05:30",
+      "direction": "debit",
+      "amount": "5.00",
+      "category": "MICRO",
+      "merchant": "UPI/PARKING",
+      "source_message_ids": [
+        "m-00017-de933a"
+      ]
+    },
+    {
+      "account_last4": "3310",
+      "occurred_at": "2026-07-03T11:51+05:30",
+      "direction": "debit",
+      "amount": "1249.99",
+      "category": "SPEND",
+      "merchant": "BLINKIT",
+      "source_message_ids": [
+        "m-00018-20d234"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-03T19:48+05:30",
+      "direction": "credit",
+      "amount": "780.49",
+      "category": "INCOME",
+      "merchant": "UPI/P2P/REFUND",
+      "source_message_ids": [
+        "m-00019-c890cd"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-07-04T07:54+05:30",
+      "direction": "debit",
+      "amount": "25.00",
+      "category": "MICRO",
+      "merchant": "UPI/STATIONERY",
+      "source_message_ids": [
+        "m-00020-a2da04"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-07-04T08:25+05:30",
+      "direction": "debit",
+      "amount": "100.00",
+      "category": "MICRO",
+      "merchant": "UPI/KIRANA STORE",
+      "source_message_ids": [
+        "m-00021-5dca80"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-04T11:54+05:30",
+      "direction": "debit",
+      "amount": "5.00",
+      "category": "MICRO",
+      "merchant": "UPI/WATER CAN",
+      "source_message_ids": [
+        "m-00022-2f118b"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-04T12:24+05:30",
+      "direction": "debit",
+      "amount": "154.49",
+      "category": "SPEND",
+      "merchant": "RELIANCE SMART",
+      "source_message_ids": [
+        "m-00023-8ee993",
+        "m-00024-5d8ad3"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-04T13:56+05:30",
+      "direction": "debit",
+      "amount": "2499.50",
+      "category": "SPEND",
+      "merchant": "SWIGGY",
+      "source_message_ids": [
+        "m-00025-aa9fa5",
+        "m-00026-4c75c0"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-04T14:48+05:30",
+      "direction": "debit",
+      "amount": "218.51",
+      "category": "SPEND",
+      "merchant": "MYNTRA",
+      "source_message_ids": [
+        "m-00027-6b33f4"
+      ]
+    },
+    {
+      "account_last4": "3310",
+      "occurred_at": "2026-07-04T18:41+05:30",
+      "direction": "debit",
+      "amount": "47.33",
+      "category": "SPEND",
+      "merchant": "DMART",
+      "source_message_ids": [
+        "m-00028-7bc35a"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-05T09:06+05:30",
+      "direction": "debit",
+      "amount": "35.00",
+      "category": "MICRO",
+      "merchant": "UPI/TEA STALL",
+      "source_message_ids": [
+        "m-00029-19d141"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-05T10:14+05:30",
+      "direction": "debit",
+      "amount": "1234.56",
+      "category": "SPEND",
+      "merchant": "BIGBASKET",
+      "source_message_ids": [
+        "m-00030-a6749e"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-05T11:00+05:30",
+      "direction": "debit",
+      "amount": "8000.00",
+      "category": "TRANSFER",
+      "merchant": "IMPS/P2A/PARAG KAPOOR",
+      "source_message_ids": [
+        "m-00031-a27b22"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-07-05T11:02+05:30",
+      "direction": "credit",
+      "amount": "8000.00",
+      "category": "TRANSFER",
+      "merchant": "IMPS/P2A/PARAG KAPOOR",
+      "source_message_ids": [
+        "m-00032-9587f0"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-05T11:03+05:30",
+      "direction": "debit",
+      "amount": "89.01",
+      "category": "SPEND",
+      "merchant": "PVR CINEMAS",
+      "source_message_ids": [
+        "m-00033-b62d07",
+        "m-00034-c39ac5"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-07-05T17:06+05:30",
+      "direction": "debit",
+      "amount": "80.00",
+      "category": "MICRO",
+      "merchant": "UPI/AUTO RICKSHAW",
+      "source_message_ids": [
+        "m-00035-660489"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-05T19:40+05:30",
+      "direction": "debit",
+      "amount": "129.67",
+      "category": "SPEND",
+      "merchant": "SWIGGY",
+      "source_message_ids": [
+        "m-00036-63dbe6"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-06T09:09+05:30",
+      "direction": "debit",
+      "amount": "62.67",
+      "category": "SPEND",
+      "merchant": "SPOTIFY IND",
+      "source_message_ids": [
+        "m-00037-86b2ed"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-07-06T11:25+05:30",
+      "direction": "debit",
+      "amount": "129.67",
+      "category": "SPEND",
+      "merchant": "RELIANCE SMART",
+      "source_message_ids": [
+        "m-00038-a40b87",
+        "m-00039-27b389"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-06T20:36+05:30",
+      "direction": "debit",
+      "amount": "20.00",
+      "category": "MICRO",
+      "merchant": "UPI/WATER CAN",
+      "source_message_ids": [
+        "m-00040-082803"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-07T11:31+05:30",
+      "direction": "debit",
+      "amount": "66.67",
+      "category": "MICRO",
+      "merchant": "UPI/PARKING",
+      "source_message_ids": [
+        "m-00041-fef500"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-07-07T16:48+05:30",
+      "direction": "debit",
+      "amount": "2750.00",
+      "category": "SPEND",
+      "merchant": "APOLLO PHARMACY",
+      "source_message_ids": [
+        "m-00042-a97f27",
+        "m-00043-4add25"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-07-07T17:21+05:30",
+      "direction": "debit",
+      "amount": "154.49",
+      "category": "SPEND",
+      "merchant": "BIGBASKET",
+      "source_message_ids": [
+        "m-00044-5ab55d"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-07T18:08+05:30",
+      "direction": "debit",
+      "amount": "60.00",
+      "category": "MICRO",
+      "merchant": "UPI/VEGETABLE VENDOR",
+      "source_message_ids": [
+        "m-00045-08790e"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-07T20:13+05:30",
+      "direction": "debit",
+      "amount": "789.01",
+      "category": "SPEND",
+      "merchant": "PVR CINEMAS",
+      "source_message_ids": [
+        "m-00046-09bb13"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-07T22:25+05:30",
+      "direction": "debit",
+      "amount": "30.00",
+      "category": "MICRO",
+      "merchant": "UPI/TEA STALL",
+      "source_message_ids": [
+        "m-00047-c41e3b"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-07-08T08:24+05:30",
+      "direction": "debit",
+      "amount": "15.00",
+      "category": "MICRO",
+      "merchant": "UPI/BARBER",
+      "source_message_ids": [
+        "m-00048-82ed78"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-07-08T08:27+05:30",
+      "direction": "debit",
+      "amount": "90.00",
+      "category": "MICRO",
+      "merchant": "UPI/MILK BOOTH",
+      "source_message_ids": [
+        "m-00049-60a4a0"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-07-08T09:03+05:30",
+      "direction": "debit",
+      "amount": "449.67",
+      "category": "SPEND",
+      "merchant": "PVR CINEMAS",
+      "source_message_ids": [
+        "m-00050-4650b4",
+        "m-00051-f55d43"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-08T16:35+05:30",
+      "direction": "debit",
+      "amount": "154.49",
+      "category": "SPEND",
+      "merchant": "APOLLO PHARMACY",
+      "source_message_ids": [
+        "m-00052-e9ebd7"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-07-08T18:58+05:30",
+      "direction": "debit",
+      "amount": "99.99",
+      "category": "SPEND",
+      "merchant": "DMART",
+      "source_message_ids": [
+        "m-00053-561bf9",
+        "m-00054-04b1af"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-09T12:17+05:30",
+      "direction": "debit",
+      "amount": "99.00",
+      "category": "MICRO",
+      "merchant": "UPI/TEA STALL",
+      "source_message_ids": [
+        "m-00055-3d7387"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-07-09T13:23+05:30",
+      "direction": "debit",
+      "amount": "333.33",
+      "category": "SPEND",
+      "merchant": "INDIAN OIL",
+      "source_message_ids": [
+        "m-00056-83f90e",
+        "m-00057-fcf1cc"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-09T15:07+05:30",
+      "direction": "debit",
+      "amount": "2499.50",
+      "category": "SPEND",
+      "merchant": "BIGBASKET",
+      "source_message_ids": [
+        "m-00058-fec9fe",
+        "m-00059-c6c4f7"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-09T17:02+05:30",
+      "direction": "debit",
+      "amount": "40.00",
+      "category": "MICRO",
+      "merchant": "UPI/KIRANA STORE",
+      "source_message_ids": [
+        "m-00060-6ff3e6"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-07-09T18:10+05:30",
+      "direction": "debit",
+      "amount": "1999.01",
+      "category": "SPEND",
+      "merchant": "SPOTIFY IND",
+      "source_message_ids": [
+        "m-00061-6ad28a",
+        "m-00062-6474c5"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-09T19:15+05:30",
+      "direction": "debit",
+      "amount": "10.00",
+      "category": "MICRO",
+      "merchant": "UPI/AUTO RICKSHAW",
+      "source_message_ids": [
+        "m-00063-262d17"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-10T07:57+05:30",
+      "direction": "debit",
+      "amount": "60.00",
+      "category": "MICRO",
+      "merchant": "UPI/MILK BOOTH",
+      "source_message_ids": [
+        "m-00064-a80151"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-10T08:36+05:30",
+      "direction": "debit",
+      "amount": "62.67",
+      "category": "SPEND",
+      "merchant": "PVR CINEMAS",
+      "source_message_ids": [
+        "m-00065-500df5"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-07-10T10:15+05:30",
+      "direction": "debit",
+      "amount": "789.01",
+      "category": "SPEND",
+      "merchant": "SPOTIFY IND",
+      "source_message_ids": [
+        "m-00066-4f866b",
+        "m-00067-0d0e1b"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-10T10:47+05:30",
+      "direction": "debit",
+      "amount": "22.50",
+      "category": "MICRO",
+      "merchant": "UPI/AUTO RICKSHAW",
+      "source_message_ids": [
+        "m-00068-3783d2"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-10T13:41+05:30",
+      "direction": "debit",
+      "amount": "249.00",
+      "category": "SPEND",
+      "merchant": "BLINKIT",
+      "source_message_ids": [
+        "m-00069-988247"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-10T13:44+05:30",
+      "direction": "debit",
+      "amount": "249.00",
+      "category": "SPEND",
+      "merchant": "BLINKIT",
+      "source_message_ids": [
+        "m-00070-dadad1"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-11T14:24+05:30",
+      "direction": "debit",
+      "amount": "62.67",
+      "category": "SPEND",
+      "merchant": "RELIANCE SMART",
+      "source_message_ids": [
+        "m-00071-262079",
+        "m-00072-841536"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-07-11T15:16+05:30",
+      "direction": "debit",
+      "amount": "5.00",
+      "category": "MICRO",
+      "merchant": "UPI/KIRANA STORE",
+      "source_message_ids": [
+        "m-00073-4faa1c"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-11T16:21+05:30",
+      "direction": "credit",
+      "amount": "1899.67",
+      "category": "INCOME",
+      "merchant": "SALARY CREDIT",
+      "source_message_ids": [
+        "m-00074-db5381"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-07-11T20:58+05:30",
+      "direction": "debit",
+      "amount": "40.00",
+      "category": "MICRO",
+      "merchant": "UPI/WATER CAN",
+      "source_message_ids": [
+        "m-00075-a9bfeb"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-07-11T22:20+05:30",
+      "direction": "debit",
+      "amount": "100.00",
+      "category": "MICRO",
+      "merchant": "UPI/VEGETABLE VENDOR",
+      "source_message_ids": [
+        "m-00076-f35fcc"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-11T22:45+05:30",
+      "direction": "debit",
+      "amount": "1234.56",
+      "category": "SPEND",
+      "merchant": "IRCTC",
+      "source_message_ids": [
+        "m-00077-e8d1c6"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-07-12T08:34+05:30",
+      "direction": "debit",
+      "amount": "15.00",
+      "category": "MICRO",
+      "merchant": "UPI/KIRANA STORE",
+      "source_message_ids": [
+        "m-00078-f49fb2"
+      ]
+    },
+    {
+      "account_last4": "3310",
+      "occurred_at": "2026-07-12T12:29+05:30",
+      "direction": "debit",
+      "amount": "899.99",
+      "category": "SPEND",
+      "merchant": "UBER INDIA",
+      "source_message_ids": [
+        "m-00079-a66252"
+      ]
+    },
+    {
+      "account_last4": "3310",
+      "occurred_at": "2026-07-12T15:53+05:30",
+      "direction": "debit",
+      "amount": "47.33",
+      "category": "SPEND",
+      "merchant": "APOLLO PHARMACY",
+      "source_message_ids": [
+        "m-00080-89ffd5"
+      ]
+    },
+    {
+      "account_last4": "3310",
+      "occurred_at": "2026-07-12T17:59+05:30",
+      "direction": "debit",
+      "amount": "1999.01",
+      "category": "SPEND",
+      "merchant": "RELIANCE SMART",
+      "source_message_ids": [
+        "m-00081-cff1a2"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-07-12T19:12+05:30",
+      "direction": "debit",
+      "amount": "1899.00",
+      "category": "SPEND",
+      "merchant": "MYNTRA",
+      "source_message_ids": [
+        "m-00082-33173e",
+        "m-00083-a9df51"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-12T19:22+05:30",
+      "direction": "debit",
+      "amount": "22.50",
+      "category": "MICRO",
+      "merchant": "UPI/WATER CAN",
+      "source_message_ids": [
+        "m-00084-bcc805"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-13T08:42+05:30",
+      "direction": "debit",
+      "amount": "99.99",
+      "category": "SPEND",
+      "merchant": "NETFLIX",
+      "source_message_ids": [
+        "m-00085-c65225",
+        "m-00086-722844"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-07-13T16:30+05:30",
+      "direction": "debit",
+      "amount": "5.00",
+      "category": "MICRO",
+      "merchant": "UPI/MILK BOOTH",
+      "source_message_ids": [
+        "m-00087-b73deb"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-13T20:11+05:30",
+      "direction": "debit",
+      "amount": "333.33",
+      "category": "SPEND",
+      "merchant": "APOLLO PHARMACY",
+      "source_message_ids": [
+        "m-00088-ec1a6f"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-14T08:18+05:30",
+      "direction": "debit",
+      "amount": "1249.99",
+      "category": "SPEND",
+      "merchant": "INDIAN OIL",
+      "source_message_ids": [
+        "m-00089-73b377"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-07-14T12:07+05:30",
+      "direction": "debit",
+      "amount": "2500.00",
+      "category": "TRANSFER",
+      "merchant": "IMPS/P2A/PARAG KAPOOR",
+      "source_message_ids": [
+        "m-00090-4091a4"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-14T12:09+05:30",
+      "direction": "credit",
+      "amount": "2500.00",
+      "category": "TRANSFER",
+      "merchant": "IMPS/P2A/PARAG KAPOOR",
+      "source_message_ids": [
+        "m-00091-f9582e"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-14T14:28+05:30",
+      "direction": "debit",
+      "amount": "449.67",
+      "category": "SPEND",
+      "merchant": "AMAZON PAY",
+      "source_message_ids": [
+        "m-00092-61f6ca",
+        "m-00093-119848"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-07-14T16:01+05:30",
+      "direction": "debit",
+      "amount": "60.00",
+      "category": "MICRO",
+      "merchant": "UPI/CHAIWALA",
+      "source_message_ids": [
+        "m-00094-da77e5"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-14T17:24+05:30",
+      "direction": "debit",
+      "amount": "99.00",
+      "category": "MICRO",
+      "merchant": "UPI/VEGETABLE VENDOR",
+      "source_message_ids": [
+        "m-00095-682675"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-14T17:56+05:30",
+      "direction": "debit",
+      "amount": "18.00",
+      "category": "MICRO",
+      "merchant": "UPI/PAN SHOP",
+      "source_message_ids": [
+        "m-00096-bfde09"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-14T19:13+05:30",
+      "direction": "debit",
+      "amount": "1249.99",
+      "category": "SPEND",
+      "merchant": "INDIAN OIL",
+      "source_message_ids": [
+        "m-00097-4ee57b",
+        "m-00098-9a109a"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-14T20:37+05:30",
+      "direction": "debit",
+      "amount": "47.33",
+      "category": "SPEND",
+      "merchant": "NETFLIX",
+      "source_message_ids": [
+        "m-00099-2322bc"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-15T08:28+05:30",
+      "direction": "debit",
+      "amount": "76.49",
+      "category": "SPEND",
+      "merchant": "PVR CINEMAS",
+      "source_message_ids": [
+        "m-00100-d20980",
+        "m-00101-ee1a34"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-07-15T09:06+05:30",
+      "direction": "debit",
+      "amount": "47.33",
+      "category": "SPEND",
+      "merchant": "SPOTIFY IND",
+      "source_message_ids": [
+        "m-00102-9da308",
+        "m-00103-e7a459"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-15T13:09+05:30",
+      "direction": "debit",
+      "amount": "25.00",
+      "category": "MICRO",
+      "merchant": "UPI/AUTO RICKSHAW",
+      "source_message_ids": [
+        "m-00104-599c0e"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-15T14:06+05:30",
+      "direction": "debit",
+      "amount": "35.00",
+      "category": "MICRO",
+      "merchant": "UPI/STATIONERY",
+      "source_message_ids": [
+        "m-00105-755a67"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-15T14:56+05:30",
+      "direction": "debit",
+      "amount": "1234.56",
+      "category": "SPEND",
+      "merchant": "NETFLIX",
+      "source_message_ids": [
+        "m-00106-c4d930",
+        "m-00107-fa5045"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-15T15:27+05:30",
+      "direction": "debit",
+      "amount": "675.67",
+      "category": "SPEND",
+      "merchant": "NETFLIX",
+      "source_message_ids": [
+        "m-00108-c87d1a",
+        "m-00109-d39f05"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-07-15T19:07+05:30",
+      "direction": "debit",
+      "amount": "66.67",
+      "category": "MICRO",
+      "merchant": "UPI/XEROX",
+      "source_message_ids": [
+        "m-00110-cdd1bf"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-15T20:05+05:30",
+      "direction": "debit",
+      "amount": "3000.00",
+      "category": "SPEND",
+      "merchant": "ATM WDL NOIDA",
+      "source_message_ids": [
+        "m-00111-27721e"
+      ]
+    },
+    {
+      "account_last4": "3310",
+      "occurred_at": "2026-07-16T08:06+05:30",
+      "direction": "debit",
+      "amount": "89.01",
+      "category": "SPEND",
+      "merchant": "BIGBASKET",
+      "source_message_ids": [
+        "m-00112-920182"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-07-16T09:59+05:30",
+      "direction": "debit",
+      "amount": "3333.33",
+      "category": "SPEND",
+      "merchant": "ZOMATO",
+      "source_message_ids": [
+        "m-00113-cef060",
+        "m-00338-77017c"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-16T11:30+05:30",
+      "direction": "credit",
+      "amount": "3000.00",
+      "category": "INCOME",
+      "merchant": "REVERSAL ATM WDL NOIDA",
+      "source_message_ids": [
+        "m-00114-2b43fd",
+        "m-00339-94d1f5"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-07-16T11:59+05:30",
+      "direction": "debit",
+      "amount": "1111.11",
+      "category": "SPEND",
+      "merchant": "ZOMATO",
+      "source_message_ids": [
+        "m-00115-f3715c",
+        "m-00340-ce643e"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-16T14:09+05:30",
+      "direction": "debit",
+      "amount": "90.00",
+      "category": "MICRO",
+      "merchant": "UPI/PAN SHOP",
+      "source_message_ids": [
+        "m-00116-835018",
+        "m-00341-8c58fb"
+      ]
+    },
+    {
+      "account_last4": "3310",
+      "occurred_at": "2026-07-16T15:54+05:30",
+      "direction": "debit",
+      "amount": "1111.11",
+      "category": "SPEND",
+      "merchant": "AMAZON PAY",
+      "source_message_ids": [
+        "m-00117-0ed7df",
+        "m-00342-240fb6"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-16T17:20+05:30",
+      "direction": "debit",
+      "amount": "5.00",
+      "category": "MICRO",
+      "merchant": "UPI/XEROX",
+      "source_message_ids": [
+        "m-00118-d8620a",
+        "m-00343-034685"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-07-17T10:10+05:30",
+      "direction": "debit",
+      "amount": "90.00",
+      "category": "MICRO",
+      "merchant": "UPI/BARBER",
+      "source_message_ids": [
+        "m-00119-307d24",
+        "m-00344-2806d7"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-07-17T12:40+05:30",
+      "direction": "debit",
+      "amount": "5.00",
+      "category": "MICRO",
+      "merchant": "UPI/TEA STALL",
+      "source_message_ids": [
+        "m-00120-725969",
+        "m-00345-950c12"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-07-17T13:25+05:30",
+      "direction": "debit",
+      "amount": "62.67",
+      "category": "SPEND",
+      "merchant": "MYNTRA",
+      "source_message_ids": [
+        "m-00121-809d18",
+        "m-00122-97fe0e",
+        "m-00347-e03e21"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-17T13:37+05:30",
+      "direction": "debit",
+      "amount": "1234.56",
+      "category": "SPEND",
+      "merchant": "INDIAN OIL",
+      "source_message_ids": [
+        "m-00123-d51d15",
+        "m-00348-8bed1d"
+      ]
+    },
+    {
+      "account_last4": "3310",
+      "occurred_at": "2026-07-17T17:56+05:30",
+      "direction": "debit",
+      "amount": "1234.56",
+      "category": "SPEND",
+      "merchant": "BLINKIT",
+      "source_message_ids": [
+        "m-00124-645898",
+        "m-00350-b855e8"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-07-18T08:30+05:30",
+      "direction": "debit",
+      "amount": "18.00",
+      "category": "MICRO",
+      "merchant": "UPI/CHAIWALA",
+      "source_message_ids": [
+        "m-00125-9a5d3e",
+        "m-00351-632ad6"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-18T09:19+05:30",
+      "direction": "debit",
+      "amount": "99.99",
+      "category": "SPEND",
+      "merchant": "INDIAN OIL",
+      "source_message_ids": [
+        "m-00126-6066f2",
+        "m-00352-d37ecb"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-18T11:06+05:30",
+      "direction": "debit",
+      "amount": "90.00",
+      "category": "MICRO",
+      "merchant": "UPI/BARBER",
+      "source_message_ids": [
+        "m-00127-583e1c",
+        "m-00353-11206d"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-18T12:13+05:30",
+      "direction": "debit",
+      "amount": "40.00",
+      "category": "MICRO",
+      "merchant": "UPI/CHAIWALA",
+      "source_message_ids": [
+        "m-00128-12f624",
+        "m-00354-a62083"
+      ]
+    },
+    {
+      "account_last4": "3310",
+      "occurred_at": "2026-07-18T17:09+05:30",
+      "direction": "debit",
+      "amount": "1111.11",
+      "category": "SPEND",
+      "merchant": "DMART",
+      "source_message_ids": [
+        "m-00129-e85c6d",
+        "m-00355-b27492"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-19T00:20+05:30",
+      "direction": "debit",
+      "amount": "412.67",
+      "category": "SPEND",
+      "merchant": "UBER INDIA",
+      "source_message_ids": [
+        "m-00130-a9be28",
+        "m-00131-cd229b",
+        "m-00356-c637ab"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-19T14:08+05:30",
+      "direction": "debit",
+      "amount": "15.00",
+      "category": "MICRO",
+      "merchant": "UPI/XEROX",
+      "source_message_ids": [
+        "m-00132-e41e9d",
+        "m-00357-aacf87"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-07-19T16:19+05:30",
+      "direction": "debit",
+      "amount": "675.67",
+      "category": "SPEND",
+      "merchant": "BLINKIT",
+      "source_message_ids": [
+        "m-00133-8bb3d0",
+        "m-00134-1f0a25",
+        "m-00358-8b045a"
+      ]
+    },
+    {
+      "account_last4": "3310",
+      "occurred_at": "2026-07-19T20:46+05:30",
+      "direction": "debit",
+      "amount": "675.67",
+      "category": "SPEND",
+      "merchant": "RELIANCE SMART",
+      "source_message_ids": [
+        "m-00135-90b098",
+        "m-00359-c41873"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-19T22:36+05:30",
+      "direction": "credit",
+      "amount": "780.49",
+      "category": "INCOME",
+      "merchant": "NEFT INWARD",
+      "source_message_ids": [
+        "m-00136-471273",
+        "m-00360-82e4f0"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-07-20T08:53+05:30",
+      "direction": "debit",
+      "amount": "75.00",
+      "category": "MICRO",
+      "merchant": "UPI/PARKING",
+      "source_message_ids": [
+        "m-00137-07a9e8",
+        "m-00361-414330"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-07-20T09:22+05:30",
+      "direction": "debit",
+      "amount": "675.67",
+      "category": "SPEND",
+      "merchant": "SPOTIFY IND",
+      "source_message_ids": [
+        "m-00138-6cc459",
+        "m-00362-3082d0"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-20T10:47+05:30",
+      "direction": "debit",
+      "amount": "62.67",
+      "category": "SPEND",
+      "merchant": "APOLLO PHARMACY",
+      "source_message_ids": [
+        "m-00139-07821e",
+        "m-00140-3f640e",
+        "m-00364-43c3f0"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-07-20T15:29+05:30",
+      "direction": "debit",
+      "amount": "154.49",
+      "category": "SPEND",
+      "merchant": "RELIANCE SMART",
+      "source_message_ids": [
+        "m-00141-498239",
+        "m-00142-5322a3",
+        "m-00365-b9b62c"
+      ]
+    },
+    {
+      "account_last4": "3310",
+      "occurred_at": "2026-07-20T21:38+05:30",
+      "direction": "debit",
+      "amount": "449.67",
+      "category": "SPEND",
+      "merchant": "SWIGGY",
+      "source_message_ids": [
+        "m-00143-4d6232",
+        "m-00366-f82ab0"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-07-20T22:18+05:30",
+      "direction": "debit",
+      "amount": "90.00",
+      "category": "MICRO",
+      "merchant": "UPI/XEROX",
+      "source_message_ids": [
+        "m-00144-fbf3e3",
+        "m-00367-ae4f2f"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-21T09:02+05:30",
+      "direction": "debit",
+      "amount": "30.00",
+      "category": "MICRO",
+      "merchant": "UPI/AUTO RICKSHAW",
+      "source_message_ids": [
+        "m-00145-3e90cf",
+        "m-00368-bf2f35"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-21T13:14+05:30",
+      "direction": "debit",
+      "amount": "12000.00",
+      "category": "TRANSFER",
+      "merchant": "IMPS/P2A/PARAG KAPOOR",
+      "source_message_ids": [
+        "m-00146-49bd2f",
+        "m-00369-386a1d"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-07-21T13:16+05:30",
+      "direction": "credit",
+      "amount": "12000.00",
+      "category": "TRANSFER",
+      "merchant": "IMPS/P2A/PARAG KAPOOR",
+      "source_message_ids": [
+        "m-00147-44360d",
+        "m-00370-f1fbcd"
+      ]
+    },
+    {
+      "account_last4": "3310",
+      "occurred_at": "2026-07-21T13:35+05:30",
+      "direction": "debit",
+      "amount": "3333.33",
+      "category": "SPEND",
+      "merchant": "SPOTIFY IND",
+      "source_message_ids": [
+        "m-00148-ac37ff",
+        "m-00371-f8b2eb"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-07-21T16:16+05:30",
+      "direction": "debit",
+      "amount": "12.50",
+      "category": "MICRO",
+      "merchant": "UPI/TEA STALL",
+      "source_message_ids": [
+        "m-00149-f84f40",
+        "m-00373-e21702"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-21T18:40+05:30",
+      "direction": "debit",
+      "amount": "12000.00",
+      "category": "SPEND",
+      "merchant": "IMPS/P2A/RAHUL SHARMA",
+      "source_message_ids": [
+        "m-00150-9a350d",
+        "m-00374-51916a"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-21T20:32+05:30",
+      "direction": "debit",
+      "amount": "47.33",
+      "category": "SPEND",
+      "merchant": "DMART",
+      "source_message_ids": [
+        "m-00151-a1767b",
+        "m-00152-50a795",
+        "m-00375-409998"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-22T06:15+05:30",
+      "direction": "debit",
+      "amount": "649.00",
+      "category": "SPEND",
+      "merchant": "NETFLIX ENTERTAINMENT",
+      "source_message_ids": [
+        "m-00154-a052c7"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-07-22T08:26+05:30",
+      "direction": "debit",
+      "amount": "100.00",
+      "category": "MICRO",
+      "merchant": "UPI/KIRANA STORE",
+      "source_message_ids": [
+        "m-00155-219e2b",
+        "m-00377-d6d413"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-22T12:18+05:30",
+      "direction": "debit",
+      "amount": "675.67",
+      "category": "SPEND",
+      "merchant": "MYNTRA",
+      "source_message_ids": [
+        "m-00156-e70c47",
+        "m-00378-121c5a"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-07-22T13:48+05:30",
+      "direction": "debit",
+      "amount": "129.67",
+      "category": "SPEND",
+      "merchant": "PVR CINEMAS",
+      "source_message_ids": [
+        "m-00157-af86fe",
+        "m-00379-d21bc9"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-22T16:30+05:30",
+      "direction": "credit",
+      "amount": "212.67",
+      "category": "INCOME",
+      "merchant": "CASHBACK",
+      "source_message_ids": [
+        "m-00158-62fb8f",
+        "m-00381-540a7f"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-22T19:55+05:30",
+      "direction": "debit",
+      "amount": "50.00",
+      "category": "MICRO",
+      "merchant": "UPI/KIRANA STORE",
+      "source_message_ids": [
+        "m-00159-37e056",
+        "m-00382-cd9eb5"
+      ]
+    },
+    {
+      "account_last4": "3310",
+      "occurred_at": "2026-07-23T08:23+05:30",
+      "direction": "debit",
+      "amount": "675.67",
+      "category": "SPEND",
+      "merchant": "MYNTRA",
+      "source_message_ids": [
+        "m-00160-b2a21e",
+        "m-00383-4bd120"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-07-23T16:52+05:30",
+      "direction": "credit",
+      "amount": "1250.33",
+      "category": "INCOME",
+      "merchant": "INTEREST CREDIT",
+      "source_message_ids": [
+        "m-00161-5b493e",
+        "m-00384-b178b4"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-07-23T18:41+05:30",
+      "direction": "debit",
+      "amount": "5.00",
+      "category": "MICRO",
+      "merchant": "UPI/BARBER",
+      "source_message_ids": [
+        "m-00162-9709eb",
+        "m-00385-854317"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-07-23T21:41+05:30",
+      "direction": "debit",
+      "amount": "10.00",
+      "category": "MICRO",
+      "merchant": "UPI/MILK BOOTH",
+      "source_message_ids": [
+        "m-00163-bd2b21",
+        "m-00386-27962a"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-23T22:16+05:30",
+      "direction": "debit",
+      "amount": "675.67",
+      "category": "SPEND",
+      "merchant": "IRCTC",
+      "source_message_ids": [
+        "m-00164-69c4f2",
+        "m-00387-4d18ce"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-24T09:15+05:30",
+      "direction": "debit",
+      "amount": "1249.99",
+      "category": "SPEND",
+      "merchant": "MYNTRA",
+      "source_message_ids": [
+        "m-00165-7ffb23",
+        "m-00388-463d51"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-07-24T12:28+05:30",
+      "direction": "debit",
+      "amount": "12.50",
+      "category": "MICRO",
+      "merchant": "UPI/CHAIWALA",
+      "source_message_ids": [
+        "m-00166-b88d93",
+        "m-00389-3adb1c"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-24T12:54+05:30",
+      "direction": "debit",
+      "amount": "100.00",
+      "category": "MICRO",
+      "merchant": "UPI/PARKING",
+      "source_message_ids": [
+        "m-00167-90f2fc",
+        "m-00390-d9bfd0"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-24T13:31+05:30",
+      "direction": "debit",
+      "amount": "2499.50",
+      "category": "SPEND",
+      "merchant": "IRCTC",
+      "source_message_ids": [
+        "m-00168-ea08f5",
+        "m-00169-0da040",
+        "m-00392-3f82f9"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-24T14:34+05:30",
+      "direction": "debit",
+      "amount": "789.01",
+      "category": "SPEND",
+      "merchant": "UBER INDIA",
+      "source_message_ids": [
+        "m-00170-932fcb",
+        "m-00393-9886a3"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-24T15:24+05:30",
+      "direction": "debit",
+      "amount": "449.67",
+      "category": "SPEND",
+      "merchant": "RELIANCE SMART",
+      "source_message_ids": [
+        "m-00171-3c58e2",
+        "m-00394-871540"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-07-25T08:54+05:30",
+      "direction": "debit",
+      "amount": "12.50",
+      "category": "MICRO",
+      "merchant": "UPI/TEA STALL",
+      "source_message_ids": [
+        "m-00172-dbf5b9",
+        "m-00395-e9ebef"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-25T12:44+05:30",
+      "direction": "credit",
+      "amount": "1250.33",
+      "category": "INCOME",
+      "merchant": "UPI/P2P/REFUND",
+      "source_message_ids": [
+        "m-00173-7756a2",
+        "m-00174-03ce2e",
+        "m-00396-17420b"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-25T13:02+05:30",
+      "direction": "debit",
+      "amount": "2499.50",
+      "category": "SPEND",
+      "merchant": "DMART",
+      "source_message_ids": [
+        "m-00175-48a7f2",
+        "m-00397-6bf2b1"
+      ]
+    },
+    {
+      "account_last4": "3310",
+      "occurred_at": "2026-07-25T14:22+05:30",
+      "direction": "debit",
+      "amount": "218.51",
+      "category": "SPEND",
+      "merchant": "BIGBASKET",
+      "source_message_ids": [
+        "m-00176-74b30f",
+        "m-00398-df1a88"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-07-25T15:00+05:30",
+      "direction": "debit",
+      "amount": "50.00",
+      "category": "MICRO",
+      "merchant": "UPI/XEROX",
+      "source_message_ids": [
+        "m-00177-e71154",
+        "m-00399-f794b5"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-07-25T16:20+05:30",
+      "direction": "debit",
+      "amount": "75.00",
+      "category": "MICRO",
+      "merchant": "UPI/STATIONERY",
+      "source_message_ids": [
+        "m-00178-2fd2b4",
+        "m-00401-af9184"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-26T07:29+05:30",
+      "direction": "debit",
+      "amount": "40.00",
+      "category": "MICRO",
+      "merchant": "UPI/XEROX",
+      "source_message_ids": [
+        "m-00179-aece64",
+        "m-00402-f080c2"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-26T09:47+05:30",
+      "direction": "debit",
+      "amount": "99.00",
+      "category": "MICRO",
+      "merchant": "UPI/VEGETABLE VENDOR",
+      "source_message_ids": [
+        "m-00180-019ca4",
+        "m-00403-785e73"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-07-26T09:50+05:30",
+      "direction": "debit",
+      "amount": "675.67",
+      "category": "SPEND",
+      "merchant": "SWIGGY",
+      "source_message_ids": [
+        "m-00181-9a93c1",
+        "m-00404-0387ff"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-07-26T10:05+05:30",
+      "direction": "debit",
+      "amount": "0.50",
+      "category": "MICRO",
+      "merchant": "UPI MANDATE VERIFY",
+      "source_message_ids": [
+        "m-00182-3c27fa",
+        "m-00405-bf6f71"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-26T14:23+05:30",
+      "direction": "debit",
+      "amount": "89.01",
+      "category": "SPEND",
+      "merchant": "BLINKIT",
+      "source_message_ids": [
+        "m-00183-879dbe",
+        "m-00406-96fe96"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-26T22:54+05:30",
+      "direction": "credit",
+      "amount": "780.49",
+      "category": "INCOME",
+      "merchant": "NEFT INWARD",
+      "source_message_ids": [
+        "m-00184-500a00",
+        "m-00408-276aa1"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-07-27T12:00+05:30",
+      "direction": "debit",
+      "amount": "4200.00",
+      "category": "SPEND",
+      "merchant": "MYNTRA",
+      "source_message_ids": [
+        "m-00185-dad33e",
+        "m-00409-f1e6b2"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-27T12:09+05:30",
+      "direction": "debit",
+      "amount": "5.00",
+      "category": "MICRO",
+      "merchant": "UPI/BARBER",
+      "source_message_ids": [
+        "m-00186-1296c5",
+        "m-00410-5ccc23"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-07-27T13:05+05:30",
+      "direction": "credit",
+      "amount": "4200.00",
+      "category": "INCOME",
+      "merchant": "MYNTRA REFUND",
+      "source_message_ids": [
+        "m-00187-490703",
+        "m-00411-09f01a"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-27T15:30+05:30",
+      "direction": "debit",
+      "amount": "90.00",
+      "category": "MICRO",
+      "merchant": "UPI/VEGETABLE VENDOR",
+      "source_message_ids": [
+        "m-00188-335d61",
+        "m-00412-69e617"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-27T18:30+05:30",
+      "direction": "debit",
+      "amount": "899.99",
+      "category": "SPEND",
+      "merchant": "RELIANCE SMART",
+      "source_message_ids": [
+        "m-00189-a1204c",
+        "m-00190-a765df",
+        "m-00413-a91d73"
+      ]
+    },
+    {
+      "account_last4": "3310",
+      "occurred_at": "2026-07-27T19:37+05:30",
+      "direction": "debit",
+      "amount": "5555.55",
+      "category": "SPEND",
+      "merchant": "SWIGGY",
+      "source_message_ids": [
+        "m-00191-534e10",
+        "m-00414-6f0c2c"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-27T22:16+05:30",
+      "direction": "debit",
+      "amount": "100.00",
+      "category": "MICRO",
+      "merchant": "UPI/WATER CAN",
+      "source_message_ids": [
+        "m-00192-ae5b69",
+        "m-00415-552db5"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-07-28T08:59+05:30",
+      "direction": "debit",
+      "amount": "89.01",
+      "category": "SPEND",
+      "merchant": "APOLLO PHARMACY",
+      "source_message_ids": [
+        "m-00193-b14cde",
+        "m-00416-bd76d3"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-28T11:54+05:30",
+      "direction": "debit",
+      "amount": "899.99",
+      "category": "SPEND",
+      "merchant": "APOLLO PHARMACY",
+      "source_message_ids": [
+        "m-00194-96db0e",
+        "m-00195-e4a1b4",
+        "m-00417-7de4a8"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-07-28T12:01+05:30",
+      "direction": "debit",
+      "amount": "1111.11",
+      "category": "SPEND",
+      "merchant": "UBER INDIA",
+      "source_message_ids": [
+        "m-00196-dece4b",
+        "m-00418-54f791"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-07-28T12:38+05:30",
+      "direction": "debit",
+      "amount": "45.50",
+      "category": "MICRO",
+      "merchant": "UPI/PAN SHOP",
+      "source_message_ids": [
+        "m-00197-95482a",
+        "m-00419-bc2bf2"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-28T22:55+05:30",
+      "direction": "debit",
+      "amount": "45.50",
+      "category": "MICRO",
+      "merchant": "UPI/CHAIWALA",
+      "source_message_ids": [
+        "m-00198-1dc293",
+        "m-00420-46da34"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-07-29T08:20+05:30",
+      "direction": "debit",
+      "amount": "90.00",
+      "category": "MICRO",
+      "merchant": "UPI/BARBER",
+      "source_message_ids": [
+        "m-00199-bbebdd",
+        "m-00421-9e98a4"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-07-29T09:13+05:30",
+      "direction": "debit",
+      "amount": "2499.50",
+      "category": "SPEND",
+      "merchant": "UBER INDIA",
+      "source_message_ids": [
+        "m-00200-caaa77",
+        "m-00201-b5d97c",
+        "m-00422-42e4ee"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-29T09:20+05:30",
+      "direction": "debit",
+      "amount": "899.99",
+      "category": "SPEND",
+      "merchant": "ZOMATO",
+      "source_message_ids": [
+        "m-00202-f9b68a",
+        "m-00423-88476c"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-29T11:53+05:30",
+      "direction": "debit",
+      "amount": "899.99",
+      "category": "SPEND",
+      "merchant": "IRCTC",
+      "source_message_ids": [
+        "m-00203-bbc8db",
+        "m-00424-00e37c"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-29T17:06+05:30",
+      "direction": "debit",
+      "amount": "75.00",
+      "category": "MICRO",
+      "merchant": "UPI/STATIONERY",
+      "source_message_ids": [
+        "m-00204-4741e7",
+        "m-00425-9dea9d"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-29T21:22+05:30",
+      "direction": "debit",
+      "amount": "1234.56",
+      "category": "SPEND",
+      "merchant": "UBER INDIA",
+      "source_message_ids": [
+        "m-00205-392448",
+        "m-00206-7ad976",
+        "m-00426-64df47"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-07-30T13:56+05:30",
+      "direction": "debit",
+      "amount": "76.49",
+      "category": "SPEND",
+      "merchant": "NETFLIX",
+      "source_message_ids": [
+        "m-00207-62afa0",
+        "m-00208-23b40f",
+        "m-00428-b5eecf"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-07-30T17:12+05:30",
+      "direction": "debit",
+      "amount": "30.00",
+      "category": "MICRO",
+      "merchant": "UPI/CHAIWALA",
+      "source_message_ids": [
+        "m-00209-dd14b7",
+        "m-00429-8b652f"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-07-30T17:28+05:30",
+      "direction": "debit",
+      "amount": "90.00",
+      "category": "MICRO",
+      "merchant": "UPI/VEGETABLE VENDOR",
+      "source_message_ids": [
+        "m-00210-4eb8d7",
+        "m-00430-3cfab2"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-30T20:11+05:30",
+      "direction": "debit",
+      "amount": "154.49",
+      "category": "SPEND",
+      "merchant": "SPOTIFY IND",
+      "source_message_ids": [
+        "m-00211-7904eb",
+        "m-00431-acb904"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-30T21:06+05:30",
+      "direction": "debit",
+      "amount": "5555.55",
+      "category": "SPEND",
+      "merchant": "UBER INDIA",
+      "source_message_ids": [
+        "m-00212-269f2d",
+        "m-00432-c3f3be"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-07-30T21:43+05:30",
+      "direction": "debit",
+      "amount": "45.50",
+      "category": "MICRO",
+      "merchant": "UPI/TEA STALL",
+      "source_message_ids": [
+        "m-00213-9bcb6c",
+        "m-00433-a38dd7"
+      ]
+    },
+    {
+      "account_last4": "3310",
+      "occurred_at": "2026-07-31T11:41+05:30",
+      "direction": "debit",
+      "amount": "47.33",
+      "category": "SPEND",
+      "merchant": "APOLLO PHARMACY",
+      "source_message_ids": [
+        "m-00214-f9f7e2",
+        "m-00434-f9f49d"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-31T14:13+05:30",
+      "direction": "debit",
+      "amount": "30.00",
+      "category": "MICRO",
+      "merchant": "UPI/STATIONERY",
+      "source_message_ids": [
+        "m-00215-74a3d3",
+        "m-00436-94ac66"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-31T14:47+05:30",
+      "direction": "debit",
+      "amount": "675.67",
+      "category": "SPEND",
+      "merchant": "IRCTC",
+      "source_message_ids": [
+        "m-00216-590952",
+        "m-00437-c4bd47"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-31T20:27+05:30",
+      "direction": "debit",
+      "amount": "99.99",
+      "category": "SPEND",
+      "merchant": "IRCTC",
+      "source_message_ids": [
+        "m-00217-471b15",
+        "m-00218-c488f6",
+        "m-00438-a54c58"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-07-31T22:36+05:30",
+      "direction": "debit",
+      "amount": "5555.55",
+      "category": "SPEND",
+      "merchant": "RELIANCE SMART",
+      "source_message_ids": [
+        "m-00219-af192b",
+        "m-00220-9f6b31",
+        "m-00439-a9ec3b"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-08-01T09:02+05:30",
+      "direction": "credit",
+      "amount": "45000.00",
+      "category": "INCOME",
+      "merchant": "SALARY CREDIT",
+      "source_message_ids": [
+        "m-00221-0eea39",
+        "m-00222-e9a23b",
+        "m-00440-99d19c"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-08-01T12:55+05:30",
+      "direction": "debit",
+      "amount": "154.49",
+      "category": "SPEND",
+      "merchant": "MYNTRA",
+      "source_message_ids": [
+        "m-00223-202b74",
+        "m-00441-3d0992"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-08-01T14:06+05:30",
+      "direction": "debit",
+      "amount": "1249.99",
+      "category": "SPEND",
+      "merchant": "RELIANCE SMART",
+      "source_message_ids": [
+        "m-00224-ae83c2",
+        "m-00442-55f4bf"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-08-01T14:21+05:30",
+      "direction": "debit",
+      "amount": "5000.00",
+      "category": "TRANSFER",
+      "merchant": "IMPS/P2A/PARAG KAPOOR",
+      "source_message_ids": [
+        "m-00225-e25f0c",
+        "m-00443-f3f882"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-08-01T14:22+05:30",
+      "direction": "credit",
+      "amount": "5000.00",
+      "category": "TRANSFER",
+      "merchant": "IMPS/P2A/PARAG KAPOOR",
+      "source_message_ids": [
+        "m-00226-9d51aa",
+        "m-00444-c0a0fa"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-08-01T18:42+05:30",
+      "direction": "debit",
+      "amount": "20.00",
+      "category": "MICRO",
+      "merchant": "UPI/CHAIWALA",
+      "source_message_ids": [
+        "m-00227-6024ba",
+        "m-00445-163fb5"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-08-01T20:06+05:30",
+      "direction": "debit",
+      "amount": "20.00",
+      "category": "MICRO",
+      "merchant": "UPI/CHAIWALA",
+      "source_message_ids": [
+        "m-00228-b8a253",
+        "m-00446-561fb0"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-08-01T20:16+05:30",
+      "direction": "debit",
+      "amount": "5555.55",
+      "category": "SPEND",
+      "merchant": "MYNTRA",
+      "source_message_ids": [
+        "m-00229-0b3f1b",
+        "m-00447-0f0596"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-08-01T21:14+05:30",
+      "direction": "credit",
+      "amount": "18000.00",
+      "category": "INCOME",
+      "merchant": "NEFT INWARD SELF",
+      "source_message_ids": [
+        "m-00230-ff8cb2",
+        "m-00448-ef9ade"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-08-02T08:11+05:30",
+      "direction": "credit",
+      "amount": "1899.67",
+      "category": "INCOME",
+      "merchant": "SALARY CREDIT",
+      "source_message_ids": [
+        "m-00231-433371",
+        "m-00449-dff9e0"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-08-02T13:42+05:30",
+      "direction": "debit",
+      "amount": "25.00",
+      "category": "MICRO",
+      "merchant": "UPI/BARBER",
+      "source_message_ids": [
+        "m-00232-697703",
+        "m-00450-7733bc"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-08-02T13:46+05:30",
+      "direction": "debit",
+      "amount": "99.99",
+      "category": "SPEND",
+      "merchant": "SWIGGY",
+      "source_message_ids": [
+        "m-00233-e16b71",
+        "m-00451-9cf246"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-08-02T13:55+05:30",
+      "direction": "credit",
+      "amount": "212.67",
+      "category": "INCOME",
+      "merchant": "CASHBACK",
+      "source_message_ids": [
+        "m-00234-87c80a",
+        "m-00452-253664"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-08-03T08:07+05:30",
+      "direction": "debit",
+      "amount": "1999.01",
+      "category": "SPEND",
+      "merchant": "INDIAN OIL",
+      "source_message_ids": [
+        "m-00235-0c38f8",
+        "m-00236-6f7c84",
+        "m-00453-6f9c6b"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-08-03T16:43+05:30",
+      "direction": "debit",
+      "amount": "10.00",
+      "category": "MICRO",
+      "merchant": "UPI/PAN SHOP",
+      "source_message_ids": [
+        "m-00237-2c5c87",
+        "m-00455-d1ab2e"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-08-03T19:56+05:30",
+      "direction": "debit",
+      "amount": "1111.11",
+      "category": "SPEND",
+      "merchant": "APOLLO PHARMACY",
+      "source_message_ids": [
+        "m-00238-ec774b",
+        "m-00239-97817e",
+        "m-00456-59b48e"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-08-03T20:10+05:30",
+      "direction": "debit",
+      "amount": "89.01",
+      "category": "SPEND",
+      "merchant": "NETFLIX",
+      "source_message_ids": [
+        "m-00240-b45f78",
+        "m-00457-6f356b"
+      ]
+    },
+    {
+      "account_last4": "3310",
+      "occurred_at": "2026-08-04T10:59+05:30",
+      "direction": "debit",
+      "amount": "3333.33",
+      "category": "SPEND",
+      "merchant": "SWIGGY",
+      "source_message_ids": [
+        "m-00241-61a14c",
+        "m-00458-8470c0"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-08-04T17:26+05:30",
+      "direction": "debit",
+      "amount": "2499.50",
+      "category": "SPEND",
+      "merchant": "AMAZON PAY",
+      "source_message_ids": [
+        "m-00242-dded32",
+        "m-00243-65a169",
+        "m-00459-725ffe"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-08-04T19:50+05:30",
+      "direction": "debit",
+      "amount": "30.00",
+      "category": "MICRO",
+      "merchant": "UPI/MILK BOOTH",
+      "source_message_ids": [
+        "m-00244-c098a2",
+        "m-00461-2a8d27"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-08-04T22:36+05:30",
+      "direction": "debit",
+      "amount": "333.33",
+      "category": "SPEND",
+      "merchant": "INDIAN OIL",
+      "source_message_ids": [
+        "m-00245-37f8ae",
+        "m-00246-ba634d",
+        "m-00462-916e97"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-08-05T07:51+05:30",
+      "direction": "debit",
+      "amount": "25.00",
+      "category": "MICRO",
+      "merchant": "UPI/VEGETABLE VENDOR",
+      "source_message_ids": [
+        "m-00247-23dc11",
+        "m-00463-6c8736"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-08-05T10:01+05:30",
+      "direction": "debit",
+      "amount": "15.00",
+      "category": "MICRO",
+      "merchant": "UPI/TEA STALL",
+      "source_message_ids": [
+        "m-00248-da498f",
+        "m-00464-33fadb"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-08-05T10:41+05:30",
+      "direction": "debit",
+      "amount": "100.00",
+      "category": "MICRO",
+      "merchant": "UPI/AUTO RICKSHAW",
+      "source_message_ids": [
+        "m-00249-d2e17c",
+        "m-00465-003b7c"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-08-05T17:12+05:30",
+      "direction": "debit",
+      "amount": "89.01",
+      "category": "SPEND",
+      "merchant": "SPOTIFY IND",
+      "source_message_ids": [
+        "m-00250-e2215b",
+        "m-00467-17bacf"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-08-05T22:42+05:30",
+      "direction": "debit",
+      "amount": "99.99",
+      "category": "SPEND",
+      "merchant": "BLINKIT",
+      "source_message_ids": [
+        "m-00251-9c5cec",
+        "m-00252-f7c61c",
+        "m-00468-65cfaa"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-08-06T08:27+05:30",
+      "direction": "debit",
+      "amount": "899.99",
+      "category": "SPEND",
+      "merchant": "INDIAN OIL",
+      "source_message_ids": [
+        "m-00253-f06e0f",
+        "m-00254-ba70bf",
+        "m-00469-cb386c"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-08-06T09:36+05:30",
+      "direction": "debit",
+      "amount": "30.00",
+      "category": "MICRO",
+      "merchant": "UPI/WATER CAN",
+      "source_message_ids": [
+        "m-00255-0b0ced",
+        "m-00470-ea6718"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-08-06T16:18+05:30",
+      "direction": "debit",
+      "amount": "22.50",
+      "category": "MICRO",
+      "merchant": "UPI/PARKING",
+      "source_message_ids": [
+        "m-00256-cb93ba",
+        "m-00471-a23244"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-08-06T16:37+05:30",
+      "direction": "debit",
+      "amount": "12.50",
+      "category": "MICRO",
+      "merchant": "UPI/CHAIWALA",
+      "source_message_ids": [
+        "m-00257-292773",
+        "m-00472-067a84"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-08-06T16:50+05:30",
+      "direction": "debit",
+      "amount": "76.49",
+      "category": "SPEND",
+      "merchant": "DMART",
+      "source_message_ids": [
+        "m-00258-293b95",
+        "m-00259-3eb6d5",
+        "m-00473-2ff75d"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-08-06T20:08+05:30",
+      "direction": "debit",
+      "amount": "47.33",
+      "category": "SPEND",
+      "merchant": "INDIAN OIL",
+      "source_message_ids": [
+        "m-00260-ca4051",
+        "m-00475-7d2d8e"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-08-07T09:04+05:30",
+      "direction": "debit",
+      "amount": "99.99",
+      "category": "SPEND",
+      "merchant": "INDIAN OIL",
+      "source_message_ids": [
+        "m-00261-3040d0",
+        "m-00262-d368a7",
+        "m-00476-f3c3a9"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-08-07T14:37+05:30",
+      "direction": "debit",
+      "amount": "20.00",
+      "category": "MICRO",
+      "merchant": "UPI/CHAIWALA",
+      "source_message_ids": [
+        "m-00263-6cee79",
+        "m-00477-f0cf51"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-08-07T15:28+05:30",
+      "direction": "debit",
+      "amount": "3500.00",
+      "category": "TRANSFER",
+      "merchant": "IMPS/P2A/PARAG KAPOOR",
+      "source_message_ids": [
+        "m-00264-c321bf",
+        "m-00478-3db94c"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-08-07T15:30+05:30",
+      "direction": "credit",
+      "amount": "3500.00",
+      "category": "TRANSFER",
+      "merchant": "IMPS/P2A/PARAG KAPOOR",
+      "source_message_ids": [
+        "m-00265-2f0284",
+        "m-00479-056aba"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-08-07T18:40+05:30",
+      "direction": "debit",
+      "amount": "675.67",
+      "category": "SPEND",
+      "merchant": "ZOMATO",
+      "source_message_ids": [
+        "m-00266-193d67",
+        "m-00267-e9f6da",
+        "m-00481-9f26e8"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-08-07T20:08+05:30",
+      "direction": "debit",
+      "amount": "66.67",
+      "category": "MICRO",
+      "merchant": "UPI/VEGETABLE VENDOR",
+      "source_message_ids": [
+        "m-00268-264dd8",
+        "m-00482-36932e"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-08-07T20:26+05:30",
+      "direction": "debit",
+      "amount": "3333.33",
+      "category": "SPEND",
+      "merchant": "DMART",
+      "source_message_ids": [
+        "m-00269-fb6fed",
+        "m-00483-c4b122"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-08-07T22:45+05:30",
+      "direction": "credit",
+      "amount": "212.67",
+      "category": "INCOME",
+      "merchant": "UPI/P2P/REFUND",
+      "source_message_ids": [
+        "m-00270-4df13b",
+        "m-00484-67d31c"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-08-08T13:05+05:30",
+      "direction": "debit",
+      "amount": "675.67",
+      "category": "SPEND",
+      "merchant": "AMAZON PAY",
+      "source_message_ids": [
+        "m-00271-9d66ba",
+        "m-00485-db2c38"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-08-08T15:05+05:30",
+      "direction": "debit",
+      "amount": "2499.50",
+      "category": "SPEND",
+      "merchant": "RELIANCE SMART",
+      "source_message_ids": [
+        "m-00272-f44910",
+        "m-00486-82a47d"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-08-08T19:05+05:30",
+      "direction": "debit",
+      "amount": "50.00",
+      "category": "MICRO",
+      "merchant": "UPI/TEA STALL",
+      "source_message_ids": [
+        "m-00273-b65592",
+        "m-00488-6d225c"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-08-08T20:17+05:30",
+      "direction": "debit",
+      "amount": "2499.50",
+      "category": "SPEND",
+      "merchant": "SWIGGY",
+      "source_message_ids": [
+        "m-00274-83b6af",
+        "m-00489-180be1"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-08-08T21:19+05:30",
+      "direction": "debit",
+      "amount": "1234.56",
+      "category": "SPEND",
+      "merchant": "AMAZON PAY",
+      "source_message_ids": [
+        "m-00275-64f3a4",
+        "m-00490-1f80e9"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-08-09T09:50+05:30",
+      "direction": "debit",
+      "amount": "75.00",
+      "category": "MICRO",
+      "merchant": "UPI/AUTO RICKSHAW",
+      "source_message_ids": [
+        "m-00276-3dd822",
+        "m-00491-b9b65d"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-08-09T18:04+05:30",
+      "direction": "debit",
+      "amount": "2499.50",
+      "category": "SPEND",
+      "merchant": "SWIGGY",
+      "source_message_ids": [
+        "m-00277-7589a3",
+        "m-00492-8d551f"
+      ]
+    },
+    {
+      "account_last4": "3310",
+      "occurred_at": "2026-08-09T18:08+05:30",
+      "direction": "debit",
+      "amount": "899.99",
+      "category": "SPEND",
+      "merchant": "BLINKIT",
+      "source_message_ids": [
+        "m-00278-236fcb",
+        "m-00493-ac8fbe"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-08-09T20:44+05:30",
+      "direction": "debit",
+      "amount": "45.50",
+      "category": "MICRO",
+      "merchant": "UPI/XEROX",
+      "source_message_ids": [
+        "m-00279-85856e",
+        "m-00494-45b684"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-08-09T21:59+05:30",
+      "direction": "debit",
+      "amount": "25.00",
+      "category": "MICRO",
+      "merchant": "UPI/BARBER",
+      "source_message_ids": [
+        "m-00280-9c6ff7",
+        "m-00495-750abd"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-08-10T11:11+05:30",
+      "direction": "debit",
+      "amount": "218.51",
+      "category": "SPEND",
+      "merchant": "ZOMATO",
+      "source_message_ids": [
+        "m-00281-371b3d",
+        "m-00496-ee3747"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-08-10T12:30+05:30",
+      "direction": "debit",
+      "amount": "1249.99",
+      "category": "SPEND",
+      "merchant": "UBER INDIA",
+      "source_message_ids": [
+        "m-00282-348149",
+        "m-00283-fdf821",
+        "m-00497-f65999"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-08-10T19:24+05:30",
+      "direction": "debit",
+      "amount": "100.00",
+      "category": "MICRO",
+      "merchant": "UPI/VEGETABLE VENDOR",
+      "source_message_ids": [
+        "m-00284-3096ef",
+        "m-00498-d2dc1e"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-08-10T21:30+05:30",
+      "direction": "debit",
+      "amount": "2499.50",
+      "category": "SPEND",
+      "merchant": "ZOMATO",
+      "source_message_ids": [
+        "m-00285-e44234",
+        "m-00286-149efa",
+        "m-00499-228fa4"
+      ]
+    },
+    {
+      "account_last4": "3310",
+      "occurred_at": "2026-08-10T21:53+05:30",
+      "direction": "debit",
+      "amount": "899.99",
+      "category": "SPEND",
+      "merchant": "BIGBASKET",
+      "source_message_ids": [
+        "m-00287-e137a2",
+        "m-00500-e129a6"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-08-11T09:09+05:30",
+      "direction": "debit",
+      "amount": "15.00",
+      "category": "MICRO",
+      "merchant": "UPI/WATER CAN",
+      "source_message_ids": [
+        "m-00288-ffbe52",
+        "m-00501-f9cfdc"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-08-11T10:00+05:30",
+      "direction": "debit",
+      "amount": "66.67",
+      "category": "MICRO",
+      "merchant": "UPI/CHAIWALA",
+      "source_message_ids": [
+        "m-00289-3977b2",
+        "m-00502-d9ec9f"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-08-11T13:23+05:30",
+      "direction": "credit",
+      "amount": "212.67",
+      "category": "INCOME",
+      "merchant": "SALARY CREDIT",
+      "source_message_ids": [
+        "m-00290-c078bd",
+        "m-00504-e1f4db"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-08-11T15:46+05:30",
+      "direction": "debit",
+      "amount": "899.99",
+      "category": "SPEND",
+      "merchant": "BLINKIT",
+      "source_message_ids": [
+        "m-00291-c52a21",
+        "m-00505-6d94c3"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-08-11T22:42+05:30",
+      "direction": "debit",
+      "amount": "18.00",
+      "category": "MICRO",
+      "merchant": "UPI/PARKING",
+      "source_message_ids": [
+        "m-00292-7a700d",
+        "m-00506-d4592b"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-08-12T08:40+05:30",
+      "direction": "debit",
+      "amount": "99.99",
+      "category": "SPEND",
+      "merchant": "APOLLO PHARMACY",
+      "source_message_ids": [
+        "m-00293-4b8ee1",
+        "m-00294-5f893c",
+        "m-00507-68d01f"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-08-12T12:52+05:30",
+      "direction": "debit",
+      "amount": "80.00",
+      "category": "MICRO",
+      "merchant": "UPI/XEROX",
+      "source_message_ids": [
+        "m-00295-23bb52",
+        "m-00508-29030a"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-08-12T13:33+05:30",
+      "direction": "debit",
+      "amount": "99.00",
+      "category": "MICRO",
+      "merchant": "UPI/XEROX",
+      "source_message_ids": [
+        "m-00296-b047ca",
+        "m-00509-601ad6"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-08-12T17:03+05:30",
+      "direction": "debit",
+      "amount": "789.01",
+      "category": "SPEND",
+      "merchant": "SPOTIFY IND",
+      "source_message_ids": [
+        "m-00297-d0770d",
+        "m-00510-4cf58e"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-08-12T17:44+05:30",
+      "direction": "debit",
+      "amount": "218.51",
+      "category": "SPEND",
+      "merchant": "MYNTRA",
+      "source_message_ids": [
+        "m-00298-88a7c7",
+        "m-00299-fc93ce",
+        "m-00511-cb056c"
+      ]
+    },
+    {
+      "account_last4": "3310",
+      "occurred_at": "2026-08-12T19:59+05:30",
+      "direction": "debit",
+      "amount": "62.67",
+      "category": "SPEND",
+      "merchant": "BIGBASKET",
+      "source_message_ids": [
+        "m-00300-eb7948",
+        "m-00512-e77d93"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-08-13T11:28+05:30",
+      "direction": "debit",
+      "amount": "62.67",
+      "category": "SPEND",
+      "merchant": "PVR CINEMAS",
+      "source_message_ids": [
+        "m-00301-fba157",
+        "m-00513-f3fe56"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-08-13T12:30+05:30",
+      "direction": "debit",
+      "amount": "60.00",
+      "category": "MICRO",
+      "merchant": "UPI/XEROX",
+      "source_message_ids": [
+        "m-00302-76042e",
+        "m-00514-c90d3d"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-08-13T13:10+05:30",
+      "direction": "debit",
+      "amount": "89.01",
+      "category": "SPEND",
+      "merchant": "AMAZON PAY",
+      "source_message_ids": [
+        "m-00303-d3e0ac",
+        "m-00304-ea090c",
+        "m-00515-d1568e"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-08-13T14:18+05:30",
+      "direction": "debit",
+      "amount": "75.00",
+      "category": "MICRO",
+      "merchant": "UPI/MILK BOOTH",
+      "source_message_ids": [
+        "m-00305-bba14c",
+        "m-00516-a7ba91"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-08-13T17:16+05:30",
+      "direction": "debit",
+      "amount": "129.67",
+      "category": "SPEND",
+      "merchant": "AMAZON PAY",
+      "source_message_ids": [
+        "m-00306-e93400",
+        "m-00307-eb4126",
+        "m-00517-e677be"
+      ]
+    },
+    {
+      "account_last4": "9075",
+      "occurred_at": "2026-08-13T21:00+05:30",
+      "direction": "debit",
+      "amount": "18.00",
+      "category": "MICRO",
+      "merchant": "UPI/MILK BOOTH",
+      "source_message_ids": [
+        "m-00308-5c0350",
+        "m-00518-9bd5fd"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-08-14T09:05+05:30",
+      "direction": "debit",
+      "amount": "66.67",
+      "category": "MICRO",
+      "merchant": "UPI/PAN SHOP",
+      "source_message_ids": [
+        "m-00309-e7dfdd",
+        "m-00519-1fe291"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-08-14T17:08+05:30",
+      "direction": "debit",
+      "amount": "1111.11",
+      "category": "SPEND",
+      "merchant": "NETFLIX",
+      "source_message_ids": [
+        "m-00310-05fc0b",
+        "m-00311-1253b8",
+        "m-00520-de726d"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-08-14T18:35+05:30",
+      "direction": "credit",
+      "amount": "99.01",
+      "category": "INCOME",
+      "merchant": "NEFT INWARD",
+      "source_message_ids": [
+        "m-00312-1dc1c1",
+        "m-00521-12e8cd"
+      ]
+    },
+    {
+      "account_last4": "4821",
+      "occurred_at": "2026-08-14T20:10+05:30",
+      "direction": "debit",
+      "amount": "20.00",
+      "category": "MICRO",
+      "merchant": "UPI/WATER CAN",
+      "source_message_ids": [
+        "m-00313-ddc246",
+        "m-00522-aeb546"
+      ]
+    }
+  ]
+}

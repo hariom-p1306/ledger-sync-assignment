@@ -195,3 +195,88 @@ Then:
   could have asked is a worse signal than asking.
 
 `talent.acquisition@simplifymoney.in`
+
+---
+
+## Implementation notes
+
+### Run locally
+
+The documented verification walkthrough completes in under five minutes once the
+Mongo image and Gradle dependencies have been downloaded locally. First-time
+downloads depend on the local network connection. The design decisions behind
+the implementation are recorded in [decision_log.md](decision_log.md).
+
+The dependency-free smoke check remains available:
+
+```bash
+./verify.sh
+```
+
+For the full SQL and MongoDB-backed build, use Java 21 and Gradle:
+
+```bash
+docker compose up -d mongo
+gradle test
+gradle run --args="migrate"
+gradle run --args="ingest fixtures/corpus-a.jsonl"
+gradle run --args="report submission/"
+gradle run --args="backfill"
+gradle run --args="check"
+```
+
+`verify.sh` intentionally compiles the parser/ledger smoke path without network dependencies. Gradle compiles the MongoDB adapter using the declared MongoDB driver.
+
+### Pipeline and evidence identity
+
+`HdfcSmsParser`, `IciciSmsParser` and `EmailParser` capture an amount from the transaction clause itself. They never use a later available balance or card limit as the transaction amount. Both decimal and whole-rupee amounts are normalized to exactly two decimal places.
+
+`IngestService` groups parsed evidence by account, bank timestamp, direction, amount and normalized merchant. An SMS and email describing the same event become one `NormalizedTxn` with every upload ID in `source_message_ids`. Re-running a corpus or reprocessing overlapping evidence produces the same canonical ledger snapshot.
+
+### Categories and reports
+
+- `MICRO`: UPI debit up to and including ₹100.
+- `TRANSFER`: matching debit and credit on different known accounts, with equal amount, normalized merchant and a five-minute bank-time window.
+- `SPEND` and `INCOME`: all other debits and credits.
+
+`summary.json` keeps MICRO out of `spend`, keeps TRANSFER out of spend/income, and reports transfer inflow/outflow separately. `reconciliation.json` never fabricates a transaction: when the report receives the corpus, it uses parsed stated-balance evidence to report only unexplained balance movement. Credit-card available limits are not treated as bank-balance evidence.
+
+### Incident
+
+The root cause, blast-radius rule and five-line operational response are recorded in [`incident/INC-2026-09-11-response.md`](incident/INC-2026-09-11-response.md). The regression test is `IncidentRegressionTest`.
+
+### Document model
+
+MongoDB is used because its document shape directly represents one canonical transaction with many evidence IDs:
+
+```text
+_id = deterministic financial-event key
+account_last4, month, occurred_at, direction, amount, category, merchant
+source_message_ids: [all SMS/email uploads that evidence the event]
+```
+
+Indexes serve the only access patterns directly:
+
+1. `(account_last4, month, occurred_at desc)` — account month, newest first.
+2. `(account_last4, category)` — category-total aggregation scope.
+3. `source_message_ids` — message-to-transaction lookup.
+
+`MongoDocumentStore` uses upsert plus `$addToSet`, so retrying a save adds evidence but cannot duplicate a financial event. `Backfill` deduplicates legacy SQL rows by the same key and may be rerun after partial failure. `ConsistencyChecker` compares full canonical content, not just counts.
+
+### Query measurements at 100k
+
+Measured locally on MongoDB 8.0.32 using an isolated `ledger_benchmark.transactions` collection containing exactly 100,000 synthetic canonical transaction documents. The benchmark used the same three indexes created by `MongoDocumentStore`; figures are MongoDB `executionStats.totalDocsExamined` and `nReturned`, not estimates.
+
+| Query | Examined | Returned |
+|---|---:|---:|
+| Q1 account/month newest first | 84 | 84 |
+| Q2 account category totals | 1,000 | 4 |
+| Q3 message ID lookup | 1 | 1 |
+
+Q1 used account `A000` and month `2026-01` (84 matching documents). Q2 aggregated all 1,000 documents for that account into four category totals. Q3 looked up one evidence message ID. The results demonstrate bounded index-backed access; they are benchmark inputs, not a claim about every possible production account distribution.
+
+### Known limitations / remaining verification
+
+- The seed migration intentionally inserts legacy rows. Corpus-only totals should be checked with `SelfCheck`; a SQL database after `migrate` also contains that historical seed data for backfill testing.
+- The corpus has 256 evidence-backed transactions while `corpus-a-totals.json` says 257. The ledger reports the actual unexplained ₹7,500.00 movement on account `4821`; it deliberately does not invent a 257th transaction.
+- The checked-in `submission/` JSON files are corpus-only artifacts. The SQL `App` workflow is retained for migration/backfill testing and includes V2 legacy seed rows, so it must not be used as the Task 2 corpus submission result.
