@@ -22,7 +22,11 @@ public final class Dates {
             DateTimeFormatter.ofPattern("dd-MM-yy HH:mm", Locale.ENGLISH),
             DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm", Locale.ENGLISH),
             DateTimeFormatter.ofPattern("dd MMM yy HH:mm", Locale.ENGLISH),
-            DateTimeFormatter.ofPattern("dd-MMM-yyyy HH:mm", Locale.ENGLISH));
+            DateTimeFormatter.ofPattern("dd-MMM-yyyy HH:mm", Locale.ENGLISH),
+            DateTimeFormatter.ofPattern("dd-MMM-uuuu HH:mm", Locale.ENGLISH));
+
+    private static final DateTimeFormatter EMAIL_FORMAT =
+            DateTimeFormatter.ofPattern("EEE, dd MMM uuuu HH:mm:ss xx", Locale.ENGLISH);
 
     /** Parse a local date-time written by a bank, as IST. */
     public static OffsetDateTime ist(String dateAndTime) {
@@ -34,5 +38,14 @@ public final class Dates {
             }
         }
         return null;
+    }
+
+    /** Parses the RFC-822 style Date header emitted by the bank alert emails. */
+    public static OffsetDateTime email(String value) {
+        try {
+            return OffsetDateTime.parse(value.trim(), EMAIL_FORMAT);
+        } catch (DateTimeParseException ignored) {
+            return null;
+        }
     }
 }

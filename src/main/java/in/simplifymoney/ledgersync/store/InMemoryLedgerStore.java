@@ -14,5 +14,10 @@ public final class InMemoryLedgerStore implements LedgerStore {
 
     @Override public List<NormalizedTxn> all() { return Collections.unmodifiableList(rows); }
 
+    @Override public void replaceAll(List<NormalizedTxn> transactions) {
+        rows.clear();
+        rows.addAll(transactions);
+    }
+
     @Override public long count() { return rows.size(); }
 }

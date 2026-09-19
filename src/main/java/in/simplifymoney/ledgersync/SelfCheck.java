@@ -39,6 +39,8 @@ public final class SelfCheck {
                 .byCategory(ledger);
         System.out.println("\nBY CATEGORY");
         cats.forEach((c, v) -> System.out.printf("  %-9s %12s%n", c, v.toPlainString()));
+        System.out.println("\nSUMMARY");
+        System.out.println(Json.writePretty(in.simplifymoney.ledgersync.report.Reports.summary(ledger)));
 
         Map<String, Object> want = Json.parseObject(Files.readString(totals));
         @SuppressWarnings("unchecked")

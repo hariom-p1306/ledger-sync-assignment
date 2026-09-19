@@ -15,5 +15,10 @@ public interface LedgerStore {
 
     List<NormalizedTxn> all();
 
+    /** Replaces the physical representation with a canonical ledger snapshot. */
+    default void replaceAll(List<NormalizedTxn> transactions) {
+        throw new UnsupportedOperationException("store does not support replacement");
+    }
+
     long count();
 }
